@@ -41,21 +41,21 @@ This repository contains a project to predict facial emotions using a Convolutio
 ## How to Use
 
 1. **Clone the repository**:
-    - git clone <repository URL>
+    - git clone <rep URL>
 
 2. **Install the required dependencies**:
     - pip install tensorflow numpy matplotlib scikit-learn opencv-python
 
 3. **Ensure the model files are in the testTrainModel/ directory**:
-  - model_expression.json
-  - model_expression.keras
+    - model_expression.json
+    - model_expression.keras
 
 4. **Run the main script**:
-  - python videoDetection.py
-    - The script will load the model, predict emotions for each frame in the video, and produce the final output file.
+    - python videoDetection.py
+        - The script will load the model, predict emotions for each frame in the video, and produce the final output file.
 
 5. **Changes**:
-  - Feel free to modify the code to adjust model parameters or experiment with different datasets.
+    - Feel free to modify the code to adjust model parameters or experiment with different datasets.
 
 ## Contributions
 
