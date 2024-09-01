@@ -42,7 +42,6 @@ y_true = np.load('true_labels_mod01.npy')
 y_pred = np.load('pred_labels_mod01.npy')
 conf_matrix = confusion_matrix(y_true, y_pred)
 expressions = ["Angry", "Disgust", "Fear", "Happy", "Sad", "Surprise", "Neutral"]
-title = 'Confusion Matrix'
 print(conf_matrix)
 
 # Import an image for testing
